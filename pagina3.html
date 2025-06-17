@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Formulário avaliação de The Last of Us">
+    <meta name="keywords" content="TLOU, contato, formulário">
+    <meta name="author" content="Kauan Felipe de Souza Moraes">
+    <title>Contato - The Last of Us</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>The Last of Us</h1>
+            </div>
+            <ul>
+                <li><a href="index.html" class="nav-link">Início</a></li>
+                <li><a href="pagina2.html" class="nav-link">Jogos</a></li>
+                <li><a href="pagina3.html" class="nav-link">Série</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="contact-main">
+        <h2 class="section-title">The Last of Us Série</h2>
+        <p class="section-text">
+            A adaptação da aclamada franquia chegou à TV pelas mãos da HBO, trazendo à vida a intensa jornada de Joel e Ellie...
+        </p>
+        
+        <div class="feedback-form">
+            <h3>Deixe sua avaliação:</h3>
+            <form action="#">
+                <label>Avalie o jogo:</label><br>
+                <input type="radio" name="jogo" value="1"> 1
+                <input type="radio" name="jogo" value="2"> 2
+                <input type="radio" name="jogo" value="3"> 3
+                <input type="radio" name="jogo" value="4"> 4
+                <input type="radio" name="jogo" value="5"> 5<br>
+
+                <label>Avalie a série:</label><br>
+                <input type="radio" name="serie" value="1"> 1
+                <input type="radio" name="serie" value="2"> 2
+                <input type="radio" name="serie" value="3"> 3
+                <input type="radio" name="serie" value="4"> 4
+                <input type="radio" name="serie" value="5"> 5<br>
+
+                <label>Personagem favorito:</label><br>
+                <select name="personagem">
+                    <option value="">Selecione</option>
+                    <option value="joel">Joel</option>
+                    <option value="ellie">Ellie</option>
+                    <option value="tommy">Tommy</option>
+                    <option value="marlene">Marlene</option>
+                    <option value="abby">Abby</option>
+                </select><br>
+
+                <label>O que mais gostou?</label><br>
+                <textarea name="comentario" rows="3" cols="40"></textarea><br>
+
+                <label>Recomendaria para outras pessoas?</label><br>
+                <input type="radio" name="recomenda" value="sim"> Sim
+                <input type="radio" name="recomenda" value="nao"> Não<br>
+
+                <button type="submit" class="btn">Enviar Avaliação</button>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <p>Feito por <strong>Kauan Felipe de Souza Moraes</strong></p>
+    </footer>
+    
+    <script src="js/main.js"></script>
+</body>
+</html>
